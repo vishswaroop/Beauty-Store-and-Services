@@ -1,0 +1,172 @@
+*{
+    margin=0;
+    padding=0;
+    box-sizing: border-box;   
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    color: aquamarine;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: #blue;
+}
+p{
+    color: red;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2{
+    flex-basis: 100px;
+    min-width: 600px;
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 1px 0;
+}
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+    
+}
+.btn{
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px o;
+    border-radius: 30px;
+    transition: background 0.5s;
+    }
+.btn:hover{
+    background: #563434;
+}
+.header{
+    background: radial-gradient(#fff,#ffd6d6);
+}
+.header .row{
+margin-top: 70px;
+}
+.header1{
+    display:inline-block;
+    background: skyblue;
+}
+.col-2 h2 {
+    display: inline-block;
+    background: white;
+    color: black;
+    padding: 8px 30px;
+    margin: 30px o;
+    border-radius: 30px;
+}
+ p3{
+   display: inline-block;
+    background: grey;
+    color: black;
+    padding: 8px 30px;
+    margin: 30px o;
+    border-radius: 30px; 
+}
+.footer{
+    margin-top: 150px;
+    width: 100%;
+    padding: 100px 15%;
+    background: #333;
+    color: #efefef;
+    display: flex;
+}
+.footer div{
+    text-align: center;
+}
+.col-2{
+    flex-grow: 2;
+}
+
+
+.footer div h3{
+    font font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+.col-1 a{
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    margin-bottom: 10px;
+}
+form input{
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+}
+form button{
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer
+}
+.social-icons{
+    margin-top: 30px;
+}
+.social-icons i{
+    font-size: 25px;
+    margin: 10px;
+    cursor: pointer;
+}
+.col-3 p{
+    color: white;
+}
+.social-icons a{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
